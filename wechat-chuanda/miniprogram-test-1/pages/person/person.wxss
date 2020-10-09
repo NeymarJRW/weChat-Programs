@@ -1,0 +1,5 @@
+
+.nav:nth-of-type(2){
+    background: #fceccb;
+    color:383632
+}

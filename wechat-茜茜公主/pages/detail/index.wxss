@@ -1,0 +1,19 @@
+page {
+  display: flex;
+  color: #baad97;
+  background: #fdf0f8;
+  width: 91.5%;
+  margin: 0 auto
+}
+.container {
+  margin-top: 120rpx
+}
+.title {
+  font-size: 36rpx;
+  margin-top: 20rpx
+}
+.content {
+  font-size: 32rpx;
+  text-indent: 2em;
+  margin: 10rpx 0
+}

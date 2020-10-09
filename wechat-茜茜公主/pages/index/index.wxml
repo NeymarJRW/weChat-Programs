@@ -1,0 +1,30 @@
+
+<wxs src="./index.wxs" module="tools"/>
+<!--index.wxml-->
+<view class="container" wx:if="{{webstate === 0}}">
+    <scroll-view class='lists' scroll-x style="width: 100%">
+    <view
+      wx:for="{{lists}}" bindtap="itemTap" wx:key="{{item.id}}"
+      data-index="{{item.id}}"
+      class="list_item {{item.id===curitem?'list_item_select':''}}"
+    >
+      <text>{{item.name}}</text>
+      <view class="item_line"></view>
+    </view>
+  </scroll-view>
+  <view class="datas">
+    <view 
+      wx:for="{{datas}}" wx:key="item.id" class="data_item" bindtap="dataTap"
+      data-id="{{item.id}}" data-des="{{item.des}}" data-url="{{item.url}}"
+      data-name="{{item.classname}}"
+    >
+      <image src="{{tools.split(item.url)}}" class="data_image" lazy-load/>
+      <text class="data_des">{{item.classname}}</text>
+    </view>
+    <view class='bottom_line' wx:if="{{bottomLine}}">我可是有底线的~</view>
+  </view>
+</view>
+<web-view 
+  wx:if="{{webstate === 1}}"
+  src="{{weburl}}"
+></web-view>

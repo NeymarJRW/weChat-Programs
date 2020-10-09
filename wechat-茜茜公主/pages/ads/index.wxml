@@ -1,0 +1,3 @@
+<!-- <ad unit-id="adunit-1df8caf2faa32f1f"></ad> -->
+<!-- <button bindtap='tap'>激励视频</button> -->
+<image src='{{imagePort}}' class='image'></image>

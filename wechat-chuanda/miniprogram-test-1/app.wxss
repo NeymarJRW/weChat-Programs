@@ -1,0 +1,30 @@
+/**app.wxss**/
+page {
+  background: #fdf0f8;
+  margin: 0;
+  padding: 0;
+}
+.topnav{
+  overflow: hidden;
+  margin-top: 140rpx;
+}
+.nav{
+  font-size: 30rpx;
+  color: #383632;
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 10rpx 0;
+  background: #ffdf9c
+}
+.content{
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.content image{
+  border-radius: 20rpx;
+  width: 47%;
+  margin-bottom: 10rpx;
+}

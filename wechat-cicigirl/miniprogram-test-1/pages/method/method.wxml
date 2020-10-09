@@ -1,0 +1,11 @@
+<view class='container'>
+  <navigator
+    wx:for="{{lists}}" wx:key="{{index}}"  url="/pages/detail/detail?id={{item.id}}"
+    target="self" class="naview"
+  >
+    <view class="title">
+      {{item.title}}
+    </view>
+    <image src="../../images/logo.png" class="image"></image>
+  </navigator>
+</view>

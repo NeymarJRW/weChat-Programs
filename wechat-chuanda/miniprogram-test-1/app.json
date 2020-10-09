@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/method/method",
+    "pages/person/person",
+    "pages/style/style",
+    "pages/detail/detail",
+    "pages/ads/index",
+    "pages/web/web"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "茜茜公主穿搭指南",
+    "navigationBarTextStyle": "black",
+    "pageOrientation": "auto",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

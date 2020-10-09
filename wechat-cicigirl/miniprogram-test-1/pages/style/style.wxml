@@ -1,0 +1,7 @@
+<view wx:for="{{lists}}" wx:key="{{index}}" wx:if="{{pageState}}">
+  <view class='title'>{{item[0]}}</view>
+  <view class='text'>{{item[1]}}</view>
+</view>
+<view wx:for="{{list}}" wx:key="{{index}}" class='listext'>
+  {{item}}
+</view>

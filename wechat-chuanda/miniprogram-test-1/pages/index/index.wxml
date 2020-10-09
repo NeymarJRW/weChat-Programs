@@ -1,0 +1,23 @@
+<view class="container" wx:if="{{webstate === 0}}">
+<view class='topnav'>
+   <navigator url='/pages/index/index' class='nav'>
+  可爱
+  </navigator>
+    <navigator url='/pages/person/person' class='nav'>
+    成熟
+  </navigator>
+    <navigator url='/pages/method/method' class='nav'>
+    休闲
+  </navigator>
+  <navigator url='/pages/style/style' class='nav'>
+    复古
+  </navigator> 
+  </view>
+  <view  class='content' >
+      <image wx:if="{{girlImg.length>0}}" wx:for="{{[1,2,3,4]}}" wx:key="{{item}}" data-index="{{item}}" src="{{girlImg+item}}.jpeg" bindtap="tiaozhuan"></image>
+  </view>
+</view>
+<web-view 
+  wx:if="{{webstate === 1}}"
+  src="{{weburl}}"
+></web-view>

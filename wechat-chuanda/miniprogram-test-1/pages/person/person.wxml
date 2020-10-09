@@ -1,0 +1,17 @@
+<view class='topnav'>
+   <navigator url='/pages/index/index' class='nav'>
+  可爱
+  </navigator>
+    <navigator url='/pages/person/person' class='nav'>
+    成熟
+  </navigator>
+    <navigator url='/pages/method/method' class='nav'>
+    休闲
+  </navigator>
+  <navigator url='/pages/style/style' class='nav'>
+    复古
+  </navigator> 
+  </view>
+  <view  class='content' >
+      <image wx:if="{{girlImg.length>0}}" wx:for="{{[5,6,7,8]}}" wx:key="{{item}}" data-index="{{item}}" src="{{girlImg+item}}.jpeg" bindtap="tiaozhuan"></image>
+  </view>

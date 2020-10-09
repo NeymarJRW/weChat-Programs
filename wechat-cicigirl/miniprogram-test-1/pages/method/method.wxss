@@ -1,0 +1,32 @@
+.container{
+color: #8A8A8A;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.naview{
+  margin: 20rpx 0;
+  width: 90%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.naview:nth-of-type(2n){
+  flex-direction:row-reverse
+
+}
+.title{
+  text-align: center;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30rpx;
+}
+.image{
+  flex: 1;
+  height:200rpx;
+}

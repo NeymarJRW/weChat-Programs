@@ -1,0 +1,212 @@
+.content {
+  padding-top: 60px;
+}
+.data_name {
+  color: #000;
+  font-weight: 600;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+}
+
+.data_des {
+  font-size: 28rpx;
+  color: #777;
+  margin-top: 60rpx;
+  margin-left: 40rpx;
+}
+
+.data_share {
+  background-color: #fc3884;
+  border-radius: 50%;
+  height: 100rpx;
+  width: 100rpx;
+  color: #fff;
+  box-shadow: 2rpx 10rpx 16rpx #f18bb3;
+  position: absolute;
+  bottom: 120rpx;
+  right: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data_share_text {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACJklEQVRYR+2XT4hPcRTFP2djw4LIghIhZcdC2dgoZWbBwmKUMYQFG+xs7BQ2SDIlIWWhWUiRLJRsLGjGAoUFU2TKimzkz9E13x/Pr4nefe/HZu7m9X797jvne+65974n21uAI8AK6sdlSUP1035lyPYTYGXyIX8lYHsrcBo4KulEN04QcPwoSUkSf0yzvRm4Vv50UNKpakLPCQSY7QPAyQK8T9Jwh8Q/ITAFiV2SLvxQvtclqMpt+1B4IUQBdgeJnhOwPQtYC8wD5gL7gWWFxFBPCNieAYT7o8U3AHE/VUy0TsD2OiDqu7SC+BB4BbwD+oFFRYHB1gjYngmcAXYU4LfAeeCipJfFiB0PfAMGJI20QsD2cuAmENcJ4DgwLOlTR4VKK36J0ki63koX2F4PxMNCgfvARknvu9zfmQOfgU2SbrUyB8rJxwr4CDBYPXWRfQ9wDgg1+iXdaWUS2p4DjAKLgdtAn6So7W9heztwrNT8Xmu7wHacKk73Algt6WNml6RMaDsGyfOYpMAqSY8y4GkT2r5R+vmKpG0ZcNt3UwRsLwDeFFMtkRT9Xjt+7qC6y8j2XuAscFXSQG3kktCEQAycPmCnpEv/g8BrYCEwX1LM9lSkFLAdrv8KfJA0O4XcpAS2Y6fHqcclxQBKR1aBWKPjwANJa9Lok++Jky/DiS6IdftYUuz4dKQJpBG7EqcJTCtQVaDJx2lTTz6NNmzyed6EwDPg8Hd1gV5zO2hWiwAAAABJRU5ErkJggg==") no-repeat;
+  background-size: 100% 100%;
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.swiper {
+  height: 674rpx;
+  margin-top: 74rpx;
+}
+
+.back {
+  border-radius: 10rpx;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600rpx !important;
+  height: 544rpx !important;
+  overflow: visible;
+}
+
+.text,
+.html {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.aplyCard {
+  width: 520rpx;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 32rpx;
+  margin: 228rpx auto 80rpx;
+  border-radius: 50rpx;
+}
+
+.noCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noCard image {
+  width: 198rpx;
+  height: 232rpx;
+  margin: 124rpx 0 0;
+
+}
+
+.noCard view {
+  margin: 150rpx 0 32rpx;
+  width: 248rpx;
+  height: 70rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 10rpx;
+}
+
+.noCard text {
+  font-size: 22rpx;
+}
+
+swiper .wx-swiper-dots.wx-swiper-dots-horizontal {
+  margin-bottom: 2rpx;
+}
+
+swiper .wx-swiper-dot {
+  width: 28rpx;
+  display: inline-flex;
+  height: 6rpx;
+  margin-left: 10rpx;
+  justify-content: space-between;
+}
+
+swiper .wx-swiper-dot::before {
+  content: '';
+  flex-grow: 1;
+  background: #E6E6E6;
+  border-radius: 8rpx
+}
+
+swiper image.cradBg {
+  transition: all .1s;
+  margin-top: 20rpx;
+}
+
+swiper image.cradBg.active {
+  width: 600rpx !important;
+  height: 544rpx !important;
+}
+
+swiper image.cradBg.quiet {
+  height: 500rpx;
+  width: 560rpx;
+}
+
+.brandLogo image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 100%;
+  margin-top: 19rpx;
+}
+
+.brandLogo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.txtBox {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44rpx;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.flag {
+  font-size: 16rpx;
+  background: #fff;
+  opacity: 0.6;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding: 4rpx 14rpx;
+  top: 44rpx;
+  border-radius: 20rpx 0 0 20rpx;
+}
+
+.plateNum {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  letter-spacing: 1.6rpx;
+}
+
+.color_ {
+  opacity: 0.8
+}
+
+.line {
+  height: 2rpx;
+  width: 534rpx;
+  background: rgba(255, 255, 255, .2);
+  margin: 40rpx 0;
+}
+
+.carType {
+  font-size: 22rpx;
+}
+
+.carShop {
+  font-size: 30rpx;
+}
+
+.cardNum {
+  margin: 22rpx 0 18rpx;
+  display: block
+}
+
+.name {
+  font-size: 24rpx;
+}

@@ -1,0 +1,23 @@
+<view class="content">
+  <view class="data_name">{{listname}}</view>
+  <swiper 
+    class="swiper" circular
+    previous-margin='70rpx' next-margin="70rpx"
+    indicator-active-color="#FF6315" bindchange="bindchange"
+    style="{{'height:' + imgheights[swiperIndex] + 'rpx'}}"
+  >
+    <swiper-item class="back center" wx:for='{{imgUrls}}' wx:for-index="index" wx:key="{{index}}">
+      <view class="wrap">
+      <image 
+        class="back cradBg {{swiperIndex==index?'active':'quiet'}}" src='{{item}}'
+        bindtap="onPreview" data-url="{{item}}" data-id='{{index}}'
+        bindload="imageLoad"
+      ></image>
+    </view>
+  </swiper-item>
+  </swiper>
+  <view class="data_des">{{listdes}}</view>
+  <button open-type="share" class="data_share">
+    <view class="data_share_text"></view>
+  </button>
+</view>

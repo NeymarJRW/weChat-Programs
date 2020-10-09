@@ -1,0 +1,36 @@
+/* pages/Person/person.wxss */
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+.person{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img2{
+  width: 300rpx;
+  height:400rpx;
+  margin-bottom: 10rpx;
+}
+.img{
+  width: 400rpx;
+  height: 400rpx;
+  margin-bottom: 10rpx;
+
+}
+.content{
+  margin-top: 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}

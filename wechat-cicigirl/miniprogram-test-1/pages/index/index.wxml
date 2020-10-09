@@ -1,0 +1,19 @@
+<view class="container" wx:if="{{webstate === 0}}">
+  <image src="../../images/home.png" class="topimage"/>
+  <navigator url='/pages/game/game' class='nav'>
+    <image src='../../images/game.png' class='img'></image>
+  </navigator>
+    <navigator url='/pages/person/person' class='nav'>
+    <image src='../../images/person.png' class='img'></image>
+  </navigator>
+    <navigator url='/pages/method/method' class='nav'>
+    <image src='../../images/method.png' class='img'></image>
+  </navigator>
+  <navigator url='/pages/style/style' class='nav'>
+    <image src='../../images/style.png' class='img'></image>
+  </navigator> 
+</view>
+<web-view 
+  wx:if="{{webstate === 1}}"
+  src="{{weburl}}"
+></web-view>

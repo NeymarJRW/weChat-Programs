@@ -1,0 +1,12 @@
+<view class='container'>
+<image class='back' src='../../images/back.png' bindtap="backlast"></image>
+
+<view class='img'>
+  <image wx:if="{{girlImg.length>0}}" src='{{girlImg+item}}.jpeg'></image>
+</view>
+  <text class='title'>{{title}}</text>
+  <text class='content'>{{content}}</text>
+<button open-type='share' class='share'>
+<image src='../../images/share.png'></image>
+</button>
+</view>

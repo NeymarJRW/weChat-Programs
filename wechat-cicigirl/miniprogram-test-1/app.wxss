@@ -1,0 +1,6 @@
+/**app.wxss**/
+page {
+  background: #fdf0f8;
+  margin: 0;
+  padding: 0;
+}

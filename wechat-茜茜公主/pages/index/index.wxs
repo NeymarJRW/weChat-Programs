@@ -1,0 +1,5 @@
+var split = function(str) {
+  return str.split(',')[0]
+}
+
+module.exports = { split : split }

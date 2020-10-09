@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ads/index",
+    "pages/detailed/index",
+    "pages/web/index",
+    "pages/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "茜茜公主宝贝",
+    "navigationBarTextStyle": "black",
+    "pageOrientation": "auto",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "resizable": true
+}
